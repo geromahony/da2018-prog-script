@@ -7,3 +7,7 @@ File:- EX-1-2.py
 File:- EX-3.py
 
 ---
+### Topic 4 - Exercise 4 - Euler Project Problem 5
+File:- EX4-EP5.py
+
+---
