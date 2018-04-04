@@ -24,7 +24,7 @@ def factorial(num_in):
 
             return num_factorial
     else:
-        print('Please enter a positive integer')
+        print('Please enter a number greater or equal to zero.')
 
 
 print('The factorial of 5 is', factorial(5))
@@ -33,4 +33,3 @@ print('The factorial of 10 is', factorial(10))
 
 print('The factorial of 0 is', factorial(0))
 print('The factorial of -10 is', factorial(-10))
-
