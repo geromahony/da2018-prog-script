@@ -3,7 +3,7 @@
 File:- EX-1-2.py
 
 ---
-### Topic 3 - Exercise 3
+### Topic 3 - Exercise 3 - Collatz Conjecture
 File:- EX-3.py
 
 ---
