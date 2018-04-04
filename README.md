@@ -15,3 +15,8 @@ File:- EX4-EP5.py
 File:- EX5-Iris-data-formatting.py
 
 ---
+
+### Topic 6 - Exercise 6 - Factorial Function
+File:- EX6-Factorial-Function.py
+
+---
