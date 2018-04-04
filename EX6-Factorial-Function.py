@@ -11,9 +11,21 @@
 # ######################################################################
 
 def factorial(num_in):
+
     # check for positive integer first
     if num_in > 0:
-        # calculate the factorial of num_in
+        # Calculate the factorial
+        num_factorial = 1
+        for i in range(1, num_in + 1):
+            num_factorial = num_factorial * i
 
+        return num_factorial
     else:
         print('Please enter a positive integer')
+
+
+print('The factorial of 5 is', factorial(5))
+print('The factorial of 7 is', factorial(7))
+print('The factorial of 10 is', factorial(10))
+print('The factorial of -10 is', factorial(-10))
+
