@@ -1,7 +1,6 @@
 #######################################################
-#  PROGRAM: P5
 #
-#  PURPOSE: Euler Project Problem 5 - Smallest multiple
+#  Euler Project Problem 5 - Smallest multiple
 #
 #  PROBLEM STATEMENT:
 #
@@ -14,19 +13,27 @@
 #######################################################
 
 num = 0
+# Initialise logical list of 10 elements
 divisor = [False] * 10
 
 while True:
 
+    # Start at 2520 as that's divisible by
+    # 1 - 10 and increment by this as
+    # result must be a multiple
     num += 2520
+
+    # Reset logical list every iteration
     divisor = [False for item in divisor]
 
+    # Loop over range 11 - 20
     for i in range(11, 21):
+        # Modulo = 0 if divisible
         if num % i == 0:
             divisor[i-11] = True
         else:
             break
-
+    # Check if list of divisors is all true
     if all(divisor):
         break
 
