@@ -14,6 +14,8 @@
 with open('./IrisData/iris.data.txt', 'r') as data_in:
     # Print a header to show which column is which
     print('===================================')
+    print('|          Iris Data Set          |')
+    print('===================================')
     print('|      Petal     |      Sepal     |')
     print('| Length | Width | Length | Width |')
     print('===================================')
@@ -34,7 +36,10 @@ with open('./IrisData/iris.data.txt', 'r') as data_in:
         print('{:<3} {:<3} {:<3} {:<3}'.format(raw_line[0], raw_line[1], raw_line[2], raw_line[3]))
 
         # This is a bonus feature line!! Comment out the 'print' line above and uncomment this line
-        # to align the data with the column headers in a nice table like format.
+        # to align the data with the column headers in a nice table like format. [1]
         # print('|{:^8}|{:^7}|{:^8}|{:^7}|'.format(raw_line[0], raw_line[1], raw_line[2], raw_line[3]))
 
 print('===================================')
+
+# References:
+# [1] https://docs.python.org/3.2/library/string.html#formatspec
