@@ -12,19 +12,24 @@
 
 def factorial(num_in):
 
-    # check for positive integer first
-    if num_in >= 0:
-        # Calculate the factorial
-        num_factorial = 1
-        if num_in == 0:
-            return num_factorial
-        else:
-            for i in range(1, num_in + 1):
-                num_factorial = num_factorial * i
+    # Check if the number is an integer
+    # and issue warning if a float is used
+    if isinstance(num_in, int):
+        # check for positive integer first
+        if num_in >= 0:
+            # Calculate the factorial
+            num_factorial = 1
+            if num_in == 0:
+                return num_factorial
+            else:
+                for i in range(1, num_in + 1):
+                    num_factorial *= i
 
-            return num_factorial
+                return num_factorial
+        else:
+            print('Please enter a number greater or equal to zero.')
     else:
-        print('Please enter a number greater or equal to zero.')
+        print('Number must be an integer.')
 
 
 print('The factorial of 5 is', factorial(5))
