@@ -32,12 +32,16 @@ except Exception:
 if num < 0:
     print('Number needs to be a positive integer')
 
+# Determine the number of digits for formatting later
+# + 24 characters for the length of the input request.
+format_length = len(str(num)) + 24
+
 # Keep looping while the number is greater than
 # 1 using a while loop
 while num > 1:
 
-    # Display the number
-    print(int(num))
+    # Print the number right aligned to display under the number entered
+    print('{:>{f_len}d}'.format(int(num), f_len=format_length))
 
     # If the number is even 
     # the modulo will be zero
@@ -50,6 +54,6 @@ while num > 1:
         num = num * 3 + 1
 
 # Display the last number outside the while loop
-print(int(num))
+print('{:>{f_len}d}'.format(int(num), f_len=format_length))
 
 
