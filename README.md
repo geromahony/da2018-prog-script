@@ -21,14 +21,15 @@ If you wish to enhance your program, have the program ask the user for the integ
 
 ---
 ### Topic 4 - Exercise 4 - Euler Project Problem 5
-File:- [EX4-Euler-Project-5.py](master/EX4-Euler-Project-5.py)
+File:- [EX4-Euler-Project-5.py](EX4-Euler-Project-5.py)
 
 #### Problem Requirement - Exercise 4
 Write a Python program using for and range to calculate the solution to the Euler Project Problem 5 which is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20.
 
 ---
 ### Topic 5 - Exercise 5 - Read & Format Iris Dataset
-File:- [EX5-Iris-data-formatting.py](master/EX5-Iris-data-formatting.py)
+File:- [EX5-Iris-data-formatting.py](EX5-Iris-data-formatting.py)
+Data:- [Iris Data Set](IrisData/iris.data.txt)
 
 #### Problem Requirement - Exercise 5
 Write a Python script that reads the Iris data set in and prints the four numerical values on each row in a nice format. That is, on the screen should be printed the petal length, petal width, sepal length and sepal width, and these values should have the decimal places aligned, with a space between the columns.
@@ -36,7 +37,7 @@ Write a Python script that reads the Iris data set in and prints the four numeri
 ---
 
 ### Topic 6 - Exercise 6 - Factorial Function
-File:- [EX6-Factorial-Function.py](master/EX6-Factorial-Function.py)
+File:- [EX6-Factorial-Function.py](EX6-Factorial-Function.py)
 
 #### Problem Requirement - Exercise 6
 Write a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial. The factorial of a number is that number multiplied by all of the positive numbers less than it. You should, in your script, test the function by calling it with the values 5, 7, and 10.
